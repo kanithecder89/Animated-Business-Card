@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Decor & Furniture</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+       
+
+
+
+    </style>
+</head>
+<body>
+
+   
+    
+    
+
+    <!-- Header Section -->
+    <header>
+        <a href="index.html">
+            <img src="logo1.jpg" alt="Website Logo" class="logo">
+        </a>
+        <nav>
+            
+               
+
+    
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+            
+
+
+                <li><a href="#" onclick="showSection('shop')">Shop</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+                <li><input type="text" placeholder="Search..." class="search-bar"></li>
+                <li><a href="#cart">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+    
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-text">
+            Up to 50% Off on Luxury Furniture! <br>
+            Exclusive designs for your perfect home. <br>
+            <a href="https://www.amazon.in/s?k=luxury+furniture" target="_blank">
+                <button class="shop-now">Shop Now</button>
+            </a>
+        </div>
+      
+    </div>
+    
+       
+    
+    
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="sofa3.jpg" alt="Luxury Sofa">
+                <h3>Luxury Sofa</h3>
+                <p>₹30,973</p>
+                <div class="stars">
+                    <input type="radio" id="star5_wood" name="rating_wood" value="5"><label for="star5_wood">★</label>
+                    <input type="radio" id="star4_wood" name="rating_wood" value="4"><label for="star4_wood">★</label>
+                    <input type="radio" id="star3_wood" name="rating_wood" value="3"><label for="star3_wood">★</label>
+                    <input type="radio" id="star2_wood" name="rating_wood" value="2"><label for="star2_wood">★</label>
+                    <input type="radio" id="star1_wood" name="rating_wood" value="1"><label for="star1_wood">★</label>
+                </div>
+        
+
+                <button onclick="addToFlipkartCart()">Add to Cart</button>
+
+        
+                <!-- <button class="add-to-cart">Add to Cart</button> -->
+                <a href="https://www.amazon.in/AS-Furniture-Sheesham-Seater-Natural/dp/B0B5DSJLKN/ref=sr_1_4?crid=J400NHFTJPPN&dib=eyJ2IjoiMSJ9.0RuVPicuIighxKu-_JYYTNpGyo-_bpw2LAtv7I9aKLA2RgVOMft8pz3ftHQ-bofC-Lm3Y2EpURokeFkc4OLITXviTydygNZzhL-oogLDgmWhBQ9Xo8F62TX-6MaZ1rV5NvLE9Ii7kWQzFDKGUxDpYt4Q21lehWIcLeiuOr5fwiwOSNY8pmzQ6M9gJDKYXHV_AWBMguD6sEVpqGAb8wK9D9-LbQCYweyWk0L-FHIaTbWvGvCQDCRE7_5mvNCvYrKpQD25_GnFQ0QQ3ir4RWDtnX4yNwzH23aEoocNLyhdLRFF8aQJVPVs3LR3aWg8kbHN3hXJuFOT-f5iMQV3PBDOJXemIIfmM2ZsZyBZYNgqWO9bGoDWz-de7WcF0cbRoGjESeOug6bGigylegsoeukGfanlhGdEKzrwIGzIjGHCMweEWhi982jxghc0qWhR8nWo.HY2MrfetFE54Ye_DOgZZDdEmYZX584PgTr8fUZ70_gw&dib_tag=se&keywords=DRYLC%2BFURNITURE%2BSolid%2BSheesham%2BWood%2B3%2B2%2B1%2BSofa%2BSet%2BFor%2BLiving%2C%2BGuest%2C%2BWaiting%2BRoom%2B%7C%2BFabric%2B3%2B%2B%2B2%2B%2B%2B1%2BSofa%2BSet%2B(Natural%2BTeak%2C%2BDIY(Do-It-Yourself))&nsdOptOutParam=true&qid=1742006155&sprefix=drylc%2Bfurniture%2Bsolid%2Bsheesham%2Bwood%2B3%2B2%2B1%2Bsofa%2Bset%2Bfor%2Bliving%2C%2Bguest%2C%2Bwaiting%2Broom%2Bfabric%2B3%2B%2B%2B2%2B%2B%2B1%2Bsofa%2Bset%2Bnatural%2Bteak%2C%2Bdiy%2Bdo-it-yourself%2B%2Caps%2C606&sr=8-4&th=1" target="_blank"><button>Buy on Amazon</button></a>
+                <a href="https://www.flipkart.com/drylc-furniture-solid-sheesham-wood-3-2-1-sofa-set-living-guest-waiting-room-fabric-3-2-1/p/itm5382e9b66700f?pid=SFSGFMYXVG8GGKTE&lid=LSTSFSGFMYXVG8GGKTEZSKW7G&marketplace=FLIPKART&store=wwe%2Fc3z&srno=b_1_11&otracker=browse&fm=organic&iid=8cd19c15-0f30-4ea9-95b2-1627986b7050.SFSGFMYXVG8GGKTE.SEARCH&ppt=browse&ppn=browse&ssid=ocs389ydsg0000001742006093366" target="_blank"><button>Buy on Flipkart</button></a>
+            </div>
+            <div class="product">
+                <img src="table2.jpg" alt="Wooden Dining Table">
+                <h3>Wooden Dining Table</h3>
+                <p>₹35,099</p>
+
+                <div class="stars">
+                    <input type="radio" id="star5_dining" name="rating_dining" value="5"><label for="star5_dining">★</label>
+                    <input type="radio" id="star4_dining" name="rating_dining" value="4"><label for="star4_dining">★</label>
+                    <input type="radio" id="star3_dining" name="rating_dining" value="3"><label for="star3_dining">★</label>
+                    <input type="radio" id="star2_dining" name="rating_dining" value="2"><label for="star2_dining">★</label>
+                    <input type="radio" id="star1_dining" name="rating_dining" value="1"><label for="star1_dining">★</label>
+                </div>
+                <button onclick="addToFlipkartCart()">Add to  Cart</button>
+
+                <!-- <button onclick="add To Cart()">Add to Cart</button> -->
+                <!-- <button onclick="addToAmazonCart('B08N5WRWNW')">Add to  Cart</button> -->
+                <!-- <button class="add-to-cart">Add to Cart</button> -->
+                <a href="https://www.amazon.in/HANDWOOD-FURNITURE-Sheesham-Dining-Chairs-Seater/dp/B0CCXXDFCN/ref=sr_1_13?crid=ML8Q6H0XEKCM&dib=eyJ2IjoiMSJ9.1tLYgIIL_kgzYyJtvVO6yGmOugmByf6chRRVgAI-EpKXN3iZqrMGoL5WSVB9DHCtnda0iPqu4ncJcDx3buSITx4Y-X5IbwcQo7RcpxODx5_bAVM3eIZa27ZWXPPGjnRVzAufSdK9V0MS7eVZ-W2Fj7cCWzvrAoRkk_AatLMkfsdb8ofnl68y7OlTNGn9S37JiB_KrReLG43PwjvmEjLXJ5sZzkzbDDYgQ_JVMK8LuYlfDKkpwbeTdt5t2o3I2tISVnt2QtquGnaJDqyss-I9YgtuSRQOftJsU3HRycueTXzW2WPInal4qu8IUvHOq9l8oqK1sW-0DOAXMGWl73-TztG6VMwJXCTfyRjJHWBWWDC73DhDBKfObhEHh06gvo2CvsTd8MwT0V2P3LEqEyY8Hi0xjEq5CPMNZRFR8QMbGJzCOI9gXog5OeQDBPek54Bl.ycmJ-Hv3c-yG-HHXS-1NOHtUgv1gBAuC1608r3KYIfQ&dib_tag=se&keywords=Taskwood%2BFurniture%2BPremium%2BDining%2BRoom%2BFurniture%2BWooden%2BDining%2BTable%2Bwith%2B6%2BChairs%2BSolid%2BWood%2B6%2BSeater%2BDining%2BSet%2B(Finish%2BColor%2B-Walnut%2BFinish%2BWith%2BBlue%2BCushions%2C%2BDIY(Do-It-Yourself))&nsdOptOutParam=true&qid=1742009625&sprefix=%2Caps%2C667&sr=8-13&th=1" target="_blank"><button>Buy on Amazon</button></a>
+                <a href="https://www.flipkart.com/taskwood-furniture-premium-dining-room-wooden-table-6-chairs-solid-wood-seater-set/p/itmf804a1d7264ad?pid=DISH2RQKHKVXSZSY&lid=LSTDISH2RQKHKVXSZSYHEHA4S&marketplace=FLIPKART&store=wwe%2Fur9&srno=b_4_159&otracker=browse&fm=organic&iid=5240dccc-3385-4988-8591-46cbf5397058.DISH2RQKHKVXSZSY.SEARCH&ppt=browse&ppn=browse&ssid=7hj730bzow0000001742009392513" target="_blank"><button>Buy on Flipkart</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Discounts & Offers Section -->
+    <section class="discounts">
+        <h2>🔥 Flash Sale: 30% OFF on Home Decor – Ends in <span id="timer">02:15:30</span> ⏳</h2>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>⭐⭐⭐⭐⭐ “Amazing quality and fast delivery!” – by kanika Sharma</p>
+    </section>
+    
+    <!-- Newsletter Signup Section -->
+    <section class="newsletter">
+        <h2>Subscribe & Get 10% Off</h2>
+        <input type="email" id="email" placeholder="Enter your email">
+        <button id="subscribe-now">Subscribe Now</button>
+    </section>
+
+    
+
+
+    <div id="contact" class="section" style="display: none;">
+        <h2>Contact Us</h2>
+        <p>Email: support@homedecor.com</p>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HomeDecor | Privacy Policy | Terms & Conditions</p>
+    </footer>
+
+
+    <!-- <div id="chatbox">
+        <div id="messages"></div>
+        <input type="text" id="userInput" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+    </div> -->
+
+  
+
+
+    
+   
