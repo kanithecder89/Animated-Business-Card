@@ -56,7 +56,7 @@ background-repeat: no-repeat;
 /* animation: changeImage 3.5s infinite linear; */
 filter: blur(1px);
 opacity: 1;
-animation: slideImages 3s infinite linear; /* 👈 Auto image change */
+animation: slideImages 10s infinite normal; /* 👈 Auto image change */
 }
 
 
